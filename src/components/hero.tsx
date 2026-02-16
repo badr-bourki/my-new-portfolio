@@ -53,10 +53,6 @@ export const Hero = () => {
             <a href="#contact" className="btn btn-primary">
               Contact Me
             </a>
-            {/* Download CV */}
-            <a href="/assets/Badr_Bourki_CV.pdf" download className="btn btn-primary flex items-center gap-2">
-              <span>Download CV</span>
-            </a>
           </motion.div>
         </div>
       </div>

@@ -29,6 +29,7 @@ import {
   project4,
   project5,
   project6,
+  project7,
   user1,
   user2,
   user3,
@@ -58,7 +59,7 @@ export const NAV_LINKS = [
   {
     id: "source-code",
     title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio",
+    link: "https://github.com/badr-bourki/my-new-portfolio",
   },
 ] as const;
 
@@ -145,7 +146,7 @@ export const EXPERIENCES = [
     company_name: "Project",
     icon: web,
     iconBg: "#383E56",
-    date: "2024",
+    date: "2026",
     points: [
       "Developed a professional project management application.",
       "Built with modern web technologies for efficient task and project tracking.",
@@ -158,7 +159,7 @@ export const EXPERIENCES = [
     company_name: "Project",
     icon: web,
     iconBg: "#383E56",
-    date: "2024",
+    date: "2026",
     points: [
       "Created a weather application with real-time data integration using API.",
       "Implemented location-based weather forecasting and current conditions.",
@@ -171,7 +172,7 @@ export const EXPERIENCES = [
     company_name: "Project",
     icon: web,
     iconBg: "#383E56",
-    date: "2024",
+    date: "2026",
     points: [
       "Developed a dynamic list management application for task organization.",
       "Implemented add, edit, delete, and mark-as-complete functionality.",
@@ -184,7 +185,7 @@ export const EXPERIENCES = [
     company_name: "Project",
     icon: web,
     iconBg: "#383E56",
-    date: "2024",
+    date: "2026",
     points: [
       "Built a modern e-commerce platform for health and wellness products.",
       "Implemented product catalog, shopping cart, and checkout functionality.",
@@ -197,7 +198,7 @@ export const EXPERIENCES = [
     company_name: "Project",
     icon: web,
     iconBg: "#383E56",
-    date: "2024",
+    date: "2026",
     points: [
       "Created a specialized application with comprehensive feature set.",
       "Focused on clean code architecture and maintainability.",
@@ -210,7 +211,7 @@ export const EXPERIENCES = [
     company_name: "Project",
     icon: web,
     iconBg: "#383E56",
-    date: "2024",
+    date: "2026",
     points: [
       "Developed a motorcycle-related web application or platform.",
       "Implemented features for motorcycle information and management.",
@@ -223,7 +224,7 @@ export const EXPERIENCES = [
     company_name: "Project",
     icon: web,
     iconBg: "#383E56",
-    date: "2024",
+    date: "2026",
     points: [
       "Built a comprehensive web application with multiple features.",
       "Implemented responsive design and cross-browser compatibility.",
@@ -281,7 +282,7 @@ export const PROJECTS = [
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/badr-bourki",
+    source_code_link: "https://github.com/badr-bourki/gestion-pro",
     live_site_link: "#",
   },
   {
@@ -301,8 +302,8 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project2,
-    source_code_link: "https://github.com/badr-bourki",
+    image: project3,
+    source_code_link: "https://github.com/badr-bourki/weather-app0",
     live_site_link: "#",
   },
   {
@@ -322,8 +323,8 @@ export const PROJECTS = [
         color: "pink-text-gradient",
       },
     ],
-    image: project3,
-    source_code_link: "https://github.com/badr-bourki",
+    image: project2,
+    source_code_link: "https://github.com/badr-bourki/do-list-app",
     live_site_link: "#",
   },
   {
@@ -344,7 +345,7 @@ export const PROJECTS = [
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/badr-bourki",
+    source_code_link: "https://github.com/badr-bourki/vitahealth",
     live_site_link: "#",
   },
   {
@@ -365,7 +366,7 @@ export const PROJECTS = [
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/badr-bourki",
+    source_code_link: "https://github.com/badr-bourki/Al-Nakhuah",
     live_site_link: "#",
   },
   {
@@ -386,7 +387,28 @@ export const PROJECTS = [
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/badr-bourki",
+    source_code_link: "https://github.com/badr-bourki/restorent-baraka",
+    live_site_link: "#",
+  },
+  {
+    name: "Motorcycle",
+    description: "Web application for motorcycle information, management, and showcasing motorcycle-related features.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project7,
+    source_code_link: "https://github.com/badr-bourki/motocyvle1",
     live_site_link: "#",
   },
 ] as const;

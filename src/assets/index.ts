@@ -36,6 +36,7 @@ import project3 from "./projects/project3.png";
 import project4 from "./projects/project4.png";
 import project5 from "./projects/project5.png";
 import project6 from "./projects/project6.png";
+const project7 = project6; // Using project6 as project7
 
 import user1 from "./testimonials/user1.jpg";
 import user2 from "./testimonials/user2.jpg";
@@ -79,6 +80,7 @@ export {
   project4,
   project5,
   project6,
+  project7,
   user1,
   user2,
   user3,

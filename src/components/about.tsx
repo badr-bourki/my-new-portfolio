@@ -63,6 +63,16 @@ export const About = () => {
             <ServiceCard key={service.title} index={i} {...service} />
           ))}
         </div>
+
+        {/* Download CV Button */}
+        <motion.div
+          variants={fadeIn(undefined, undefined, 0.2, 1)}
+          className="mt-10"
+        >
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary flex items-center gap-2 w-fit">
+            <span>View CV</span>
+          </a>
+        </motion.div>
       </>
     </SectionWrapper>
   );
