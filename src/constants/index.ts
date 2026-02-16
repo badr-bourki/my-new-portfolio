@@ -138,58 +138,97 @@ export const TECHNOLOGIES = [
   },
 ] as const;
 
-// Experiences
+// Experiences (Project-Based)
 export const EXPERIENCES = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Gestion Pro App",
+    company_name: "Project",
+    icon: web,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a professional project management application.",
+      "Built with modern web technologies for efficient task and project tracking.",
+      "Implemented responsive design for seamless user experience across devices.",
+      "Focus on user-friendly interface and intuitive navigation.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Weather App",
+    company_name: "Project",
+    icon: web,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created a weather application with real-time data integration using API.",
+      "Implemented location-based weather forecasting and current conditions.",
+      "Designed clean, intuitive UI for weather information display.",
+      "Built with HTML, CSS, JavaScript with external weather API integration.",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "List App",
+    company_name: "Project",
+    icon: web,
+    iconBg: "#383E56",
+    date: "2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed a dynamic list management application for task organization.",
+      "Implemented add, edit, delete, and mark-as-complete functionality.",
+      "Built with pure HTML, CSS, and JavaScript for optimal performance.",
+      "Features responsive design and local storage for data persistence.",
+    ],
+  },
+  {
+    title: "VitaHealth - E-commerce Website",
+    company_name: "Project",
+    icon: web,
+    iconBg: "#383E56",
+    date: "2024",
+    points: [
+      "Built a modern e-commerce platform for health and wellness products.",
+      "Implemented product catalog, shopping cart, and checkout functionality.",
+      "Designed responsive layouts for mobile and desktop viewing.",
+      "Integrated payment gateway and order management system.",
+    ],
+  },
+  {
+    title: "Al-Nakuah",
+    company_name: "Project",
+    icon: web,
+    iconBg: "#383E56",
+    date: "2024",
+    points: [
+      "Created a specialized application with comprehensive feature set.",
+      "Focused on clean code architecture and maintainability.",
+      "Implemented responsive design principles throughout.",
+      "Built with modern web development standards and best practices.",
+    ],
+  },
+  {
+    title: "Motorcycle",
+    company_name: "Project",
+    icon: web,
+    iconBg: "#383E56",
+    date: "2024",
+    points: [
+      "Developed a motorcycle-related web application or platform.",
+      "Implemented features for motorcycle information and management.",
+      "Created intuitive user interface for target audience.",
+      "Focused on performance and user engagement.",
+    ],
+  },
+  {
+    title: "Baraka",
+    company_name: "Project",
+    icon: web,
+    iconBg: "#383E56",
+    date: "2024",
+    points: [
+      "Built a comprehensive web application with multiple features.",
+      "Implemented responsive design and cross-browser compatibility.",
+      "Focused on code quality and maintainable structure.",
+      "Delivered user-centric design with excellent functionality.",
     ],
   },
 ] as const;
@@ -225,158 +264,142 @@ export const TESTIMONIALS = [
 // Projects
 export const PROJECTS = [
   {
-    name: "Disney+ Clone",
-    description:
-      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+    name: "Gestion Pro App",
+    description: "A professional project management application for efficient task tracking and team collaboration.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "firebase",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: project1,
-    source_code_link: "https://github.com/sanidhyy/disney-clone",
-    live_site_link: "https://clonedisneyplus.web.app",
+    source_code_link: "https://github.com/badr-bourki",
+    live_site_link: "#",
   },
   {
-    name: "Golds Gym",
-    description:
-      "Web application that enables users to search for fitness exercises, effective personalized positions, and recommends new exercises based on their personal preferences.",
+    name: "Weather App",
+    description: "Real-time weather application with location-based forecasting and current weather conditions.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "api",
         color: "pink-text-gradient",
       },
     ],
     image: project2,
-    source_code_link: "https://github.com/sanidhyy/fitness-app",
-    live_site_link: "https://fitness-gym-react.netlify.app",
+    source_code_link: "https://github.com/badr-bourki",
+    live_site_link: "#",
   },
   {
-    name: "Shoppy",
-    description:
-      "The most personalised admin dashboard web application that allows enables users to choose customized themes and dark mode with different pages and variety of charts.",
+    name: "List App",
+    description: "Dynamic list management application with add, edit, delete, and task completion features.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "syncfusion",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/sanidhyy/admin-dashboard",
-    live_site_link: "https://shoppy-dashboard-react.netlify.app",
+    source_code_link: "https://github.com/badr-bourki",
+    live_site_link: "#",
   },
   {
-    name: "TikTok Clone",
-    description:
-      "A Next JS Web Application that enables users to upload videos of any length and size, create accounts and connect with other people just like any other social media.",
+    name: "VitaHealth - E-commerce",
+    description: "Modern e-commerce platform for health and wellness products with shopping cart and checkout.",
     tags: [
       {
-        name: "nextjs",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "nodejs",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindcss",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: project4,
-    source_code_link: "https://github.com/sanidhyy/tiktok-clone",
-    live_site_link: "https://tiktok-clone-react.vercel.app",
+    source_code_link: "https://github.com/badr-bourki",
+    live_site_link: "#",
   },
   {
-    name: "Cryptoverse",
-    description:
-      "Best Cryptocurrency web application that allows users to view price, market cap and daily change in realtime for almost every cryptocurrency in the world.",
+    name: "Al-Nakuah",
+    description: "Specialized web application built with clean code architecture and responsive design principles.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: project5,
-    source_code_link: "https://github.com/sanidhyy/crypto-app",
-    live_site_link: "https://reactjscryptoapp.netlify.app",
+    source_code_link: "https://github.com/badr-bourki",
+    live_site_link: "#",
   },
   {
-    name: "Travel Advisor",
-    description:
-      "Web application that enables you to view your nearby restaurants, hotels and attractions which can be sorted by ratings, price and much more.",
+    name: "Baraka",
+    description: "Comprehensive web application with multiple features and focus on performance and user engagement.",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "material-ui",
+        name: "javascript",
         color: "pink-text-gradient",
       },
     ],
     image: project6,
-    source_code_link: "https://github.com/sanidhyy/travel-advisor",
-    live_site_link: "https://travel-advisor-reactjs.netlify.app",
+    source_code_link: "https://github.com/badr-bourki",
+    live_site_link: "#",
   },
 ] as const;
 
 export const SOCIALS = [
   {
-    name: "YouTube",
-    icon: youtube,
-    link: "https://www.youtube.com/@OPGAMER.",
-  },
-  {
-    name: "Linkedin",
-    icon: linkedin,
-    link: "https://www.linkedin.com/in/sanidhyy",
-  },
-  {
-    name: "Twitter",
-    icon: twitter,
-    link: "https://x.com/_sanidhyy",
-  },
-  {
     name: "GitHub",
     icon: github,
-    link: "https://github.com/sanidhyy",
+    link: "https://github.com/badr-bourki",
+  },
+  {
+    name: "LinkedIn",
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/badr-bourki",
   },
 ] as const;

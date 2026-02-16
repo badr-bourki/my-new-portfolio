@@ -23,12 +23,41 @@ export const Hero = () => {
         {/* About Me */}
         <div>
           <h1 className={cn(styles.heroHeadText, "text-white")}>
-            Hi, I'm <span className="text-[#915eff]">Shubham</span>
+            Hi, I'm{" "}
+            <motion.span
+              className="bg-gradient-to-r from-[#915eff] via-purple-400 to-[#915eff] bg-clip-text text-transparent"
+              animate={{
+                opacity: [0.6, 1, 0.6],
+                backgroundPosition: ["0% center", "100% center", "0% center"],
+              }}
+              transition={{
+                duration: 3,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              style={{
+                backgroundSize: "200% 200%",
+              }}
+            >
+              Badr Bourki
+            </motion.span>
           </h1>
-          <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
-          </p>
+          <p className={cn(styles.heroSubText, "mt-2 text-white-100")}>Junior Web Developer<br className="sm:block hidden" />I build responsive websites using HTML, CSS, and JavaScript.</p>
+          <motion.div
+            className="flex flex-row gap-4 mt-6"
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.8 }}
+          >
+            {/* Contact Button */}
+            <a href="#contact" className="btn btn-primary">
+              Contact Me
+            </a>
+            {/* Download CV */}
+            <a href="/assets/Badr_Bourki_CV.pdf" download className="btn btn-primary flex items-center gap-2">
+              <span>Download CV</span>
+            </a>
+          </motion.div>
         </div>
       </div>
 

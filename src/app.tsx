@@ -10,6 +10,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  SocialSidebar,
 } from "./components";
 import Banner from "./components/banner";
 import Footer from "./components/footer";
@@ -20,6 +21,7 @@ const App = () => {
 
   return (
     <BrowserRouter>
+      <SocialSidebar />
       <Banner hide={hide} setHide={setHide} />
       <div className="relative z-0 bg-primary">
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
